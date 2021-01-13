@@ -1,0 +1,56 @@
+body {
+	width: 100%;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  font-family: DejaVuSans;
+  overflow-x: hidden !important;
+}
+
+.decoration {
+	display: flex;
+	margin-top: 25px;
+	left: 90px;
+	position: absolute;
+}
+
+.decoration__line {
+	width: 40px;
+	height: 10px;
+	background-color: #000000;
+	margin-right: 25px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.header__logo {
+	width: 375px;
+	height: 65px;
+}
+
+.header__menu {
+	display: flex;
+	flex-wrap: no-wrap;
+}
+
+.header__menu__item {
+	font-size: 24px;
+	color: #000000;
+	font-family: DejaVuSans;
+	margin: 30px;
+	
+
+	&:hover {
+		text-decoration: none;
+		color: #fee600;
+	}
+}

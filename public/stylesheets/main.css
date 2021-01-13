@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'DejaVuSans';
+  src: url(../../fonts/DejaVuSans.ttf);
+  font-weight: normal;
+  font-style: normal; }
+body {
+  width: 100%; }
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  font-family: DejaVuSans;
+  overflow-x: hidden !important; }
+
+.decoration {
+  display: flex;
+  margin-top: 25px;
+  left: 90px;
+  position: absolute; }
+
+.decoration__line {
+  width: 40px;
+  height: 10px;
+  background-color: #000000;
+  margin-right: 25px; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+.header__logo {
+  width: 375px;
+  height: 65px; }
+
+.header__menu {
+  display: flex;
+  flex-wrap: no-wrap; }
+
+.header__menu__item {
+  font-size: 24px;
+  color: #000000;
+  font-family: DejaVuSans;
+  margin: 30px; }
+  .header__menu__item:hover {
+    text-decoration: none;
+    color: #fee600; }
+
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center; }
+
+.info__add {
+  background: url(../../images/app.jpg);
+  width: 70%;
+  height: 700px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px; }
+
+.info__hr-dashed__top {
+  border-top: 10px dashed #111111;
+  width: 78%;
+  size: 10px;
+  margin: 0;
+  top: 685px;
+  position: absolute; }
+
+.info__hr-dashed__right {
+  border-right: 10px dashed #111111;
+  height: 200px;
+  top: 685px;
+  left: 78%;
+  position: absolute; }
+
+.info__hr-dashed__bottom {
+  border-top: 10px dashed #111111;
+  height: 200px;
+  width: 56%;
+  top: 870px;
+  position: absolute;
+  margin-left: 22%; }
+
+.info__add__buttons {
+  display: flex;
+  justify-content: center;
+  bottom: 30px;
+  position: absolute; }
+
+.add__button {
+  width: 290px;
+  height: 80px;
+  background-color: #2a2d34;
+  color: #ffffff;
+  font-size: 24px;
+  border-radius: 10px;
+  margin: 15px; }
+
+.info_text:first-of-type {
+  max-width: 55%;
+  width: 55%;
+  height: auto;
+  margin-top: 25px;
+  margin-left: 90px;
+  background-color: #fee600;
+  border-radius: 20px; }
+  .info_text:first-of-type p {
+    font-size: 24px;
+    margin: 55px 45px 55px 45px;
+    text-indent: 174px; }
+  .info_text:first-of-type:first-of-type {
+    height: auto; }
+
+.info__hr-dashed__left {
+  border-left: 10px dashed #111111;
+  height: autoauto;
+  top: 895px;
+  margin-left: 22%;
+  position: absolute; }
+
+/*# sourceMappingURL=main.css.map */
