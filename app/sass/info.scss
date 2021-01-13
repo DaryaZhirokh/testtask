@@ -10,46 +10,34 @@ $info-text_first: auto;
  }
 
  .info__add {
- 	background: url(../../images/app.jpg);
- 	width: 70%;
- 	height: 700px;
+ 	width: 100%;
+ 	height: 100%;
  	position: relative;
- 	display: flex;
- 	justify-content: center;
  	margin-bottom: 75px;
+ 	overflow: hidden; 
+    // min-width: 600px;
+
+    & img {
+    	width: 100%; /* Ширина изображений */
+    	margin: 0 0 0 0;
+    }
  }
 
-.info__hr-dashed__top {
-	border-top: 10px dashed #111111;
-	width: 78%;
-	size: 10px;
-	margin: 0;
-	top: 685px;
-	position: absolute;
-}
-
-.info__hr-dashed__right {
-	border-right: 10px dashed #111111;
-	height: 200px;
-	top: 685px;
-	left: 78%;
-	position: absolute;
-}
-
-.info__hr-dashed__bottom {
-	border-top: 10px dashed #111111;
-	height: 200px;
-	width: 56%;
-	top: 870px;
-	position: absolute;
-	margin-left: 22%;
+.info__dashed-line {
+    position: absolute;
+    width: 70%;
+    height: 960px;
+    left: 0;
+    top: 60%;
+    z-index: 99;
 }
 
 .info__add__buttons {
 	display: flex;
 	justify-content: center;
-	bottom: 30px;
+	bottom: 4%;
 	position: absolute;
+	width: 100%;
 }
 
 .add__button{
@@ -62,7 +50,7 @@ $info-text_first: auto;
 	margin: 15px;
 }
 
-.info_text:first-of-type {
+.info_text {
 	max-width: 55%;
 	width: 55%;
 	height: $info-text_second;
@@ -70,6 +58,7 @@ $info-text_first: auto;
 	margin-left: 90px;
 	background-color: #fee600;
 	border-radius: 20px;
+	position: relative;
 	
 	& p {
 		font-size: 24px;
@@ -82,10 +71,15 @@ $info-text_first: auto;
 	}
 }
 
-.info__hr-dashed__left {
-	border-left: 10px dashed #111111;
-	height: $info-text_second + $info-text_first;
-	top: 895px;
-	margin-left: 22%;
+.info__text__codeR {
 	position: absolute;
+	position: absolute;
+    left: -512px;
+    top: 17%;
+}
+
+.info__text__dayR {
+	position: absolute;
+    top: 14%;
+    left: -512px;
 }
