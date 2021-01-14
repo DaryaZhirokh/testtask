@@ -44,4 +44,44 @@ header {
     text-decoration: none;
     color: #fee600; }
 
+@media (max-width: 1250px) {
+  .header__logo {
+    display: flex;
+    text-align: center; }
+
+  .logo_img {
+    width: 200px;
+    height: 50px; } }
+@media (max-width: 1000px) {
+  .header__menu__item {
+    font-size: 18px; }
+
+  .decoration__line {
+    display: none; } }
+@media (max-width: 850px) {
+  .header__menu__item {
+    margin: 15px; } }
+@media (max-width: 700px) {
+  .header__menu__item {
+    margin: 10px; }
+
+  .logo_img {
+    width: 150px;
+    height: 20px; }
+
+  .header__logo {
+    width: 150px;
+    height: 20px; } }
+@media (min-width: 550px) {
+  .header__hamburger {
+    display: none; } }
+@media (max-width: 550px) {
+  .header__hamburger {
+    display: block;
+    height: 50px;
+    width: 50px; }
+
+  .header__menu {
+    display: none; } }
+
 /*# sourceMappingURL=header.css.map */
