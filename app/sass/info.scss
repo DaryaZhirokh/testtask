@@ -1,10 +1,5 @@
 .info {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
+
 }
 
 .info-container {
@@ -36,21 +31,25 @@
   margin: 0 0 0 0;
 }
 
+.info__background-container {
+	position: relative;
+}
+
 .info__add__buttons {
   display: flex;
   justify-content: center;
-  top: 49%;
   position: absolute;
   width: 100%;
+  bottom: 0;
 }
 
 .add__button {
   width: 15%;
   min-width: 200px;
-  height: 80px;
+  height: 40px;
   background-color: #2a2d34;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 16px;
   border-radius: 10px;
   margin: 15px;
 }
@@ -89,21 +88,6 @@
 }
 
 @media (max-width: 1910px) {
-  .info__add__buttons {
-    top: 48%;
-  }
-
-  .info__dashed-line__container {
-    top: 40%;
-    left: -30px;
-  }
-}
-
-@media (max-width: 1910px) {
-  .info__add__buttons {
-    top: 48%;
-  }
-
   .info__dashed-line__container {
     top: 39%;
     left: -60px;
@@ -111,10 +95,6 @@
 }
 
 @media (max-width: 1855px) {
-  .info__add__buttons {
-    top: 47%;
-  }
-
   .info__dashed-line__container {
     top: 39%;
     left: -155px;
@@ -122,62 +102,120 @@
 }
 
 @media (max-width: 1855px) {
-  .info__add__buttons {
-    top: 46%;
-  }
-}
-
-@media (max-width: 1855px) {
-  .info__add__buttons {
-    top: 44%;
-  }
-
   .info__dashed-line__container {
     top: 37%;
   }
 }
 
+@media (max-width: 1750px) {
+	.info__dashed-line__container {
+		background: no-repeat url(../../images/line-medium.svg);
+		top: 38%;
+   		left: 30px;
+	}
+}
+
+@media (max-width: 1650px) {
+	.info__dashed-line__container {
+	    top: 36%;
+	    left: -55px;
+	}
+}
+
+@media (max-width: 1600px) {
+	.info__dashed-line__container {
+        top: 34%;
+		left: -79px;
+	}
+}
+
+
+@media (max-width: 1550px) {
+	.info__dashed-line__container {
+		background: no-repeat url(../../images/line-medium_x_1550.svg);
+	    top: 32%;
+    	left: 0px;
+	}
+}
 
 @media (max-width: 1450px) {
-  .code__picture {
-    width: 600px;
-  }
+  	.info__dashed-line__container {
+	    top: 29%;
+	    left: 11px;
+	}
 
-  .info__text__codeR,
-  .info__text__dayR {
-    margin-top: 4%;
-  }
+ 	.code__picture {
+    	width: 600px;
+  	}
+
+  	.info__text__codeR,
+  	.info__text__dayR {
+    	margin-top: 4%;
+  	}
 }
 
-@media (max-width: 1250px) {
-  .code__picture {
-    width: 400px;
-    height: 20px;
-  }
-
-  .info__text__codeR,
-  .info__text__dayR {
-    margin-top: 5%;
-  }
+@media (max-width: 1410px) {
+  	.info__dashed-line__container {
+  		top: 27%;
+    	left: -10px;
+	}
 }
 
+@media (max-width: 1350px) {
+	.info__dashed-line__container {
+		top: 27%;
+	    left: -60px;
+	}
+}
 
-@media (max-width: 1000px) {
-  .add__button {
-    font-size: 18px;
-  }
+@media (max-width: 1330px) {
+	.info__dashed-line__container {
+		top: 25%;
+	    left: -60px;
+	}
+}
 
-  .info_text p {
-    font-size: 18px;
-  }
+@media (max-width: 1260px) {
+	.code__picture {
+		width: 400px;
+		height: 20px;
+	}
+
+	.info__text__codeR,
+	.info__text__dayR {
+		margin-top: 5%;
+	}
+
+	.info__dashed-line__container {
+		background: no-repeat url("../../images/line_x1000.svg");
+	    top: 15%;
+	    left: -65px;
+	    background-size: contain;
+	}
+}
+
+@media (max-width: 1200px) {
+	.info__dashed-line__container {
+		background: no-repeat url("../../images/line_x1000.svg");
+	    top: 13%;
+	    left: -65px;
+	    background-size: contain;
+	}
+}
+
+@media (max-width: 1040px) {
+
+	.info__dashed-line__container {
+		background: no-repeat url("../../images/line_x800.svg");
+	}
+
+  	.info_text p {
+    	font-size: 18px;
+ 	}
 
   header {
     margin-left: 10%;
     margin-right: 10%;
-  }
-
-  .add__button {
-    height: 50px;
   }
 
   .info__text__codeR,
@@ -230,16 +268,6 @@
 }
 
 @media (max-width: 550px) {
-  .add__button {
-    height: 30px;
-    margin: 5px;
-  }
-
-  .info__add__buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .info__date {
     font-family: DejaVuSans;
     color: #111111;
@@ -274,7 +302,7 @@
 }
 
 @media (max-width: 350px) {
-  .info_text__codeR-container {
+  		.info_text__codeR-container {
     margin-right: 10%;
   }
 

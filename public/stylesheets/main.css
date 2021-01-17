@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'DejaVuSans';
-  src: url(../../fonts/DejaVuSans.ttf);
+  font-family: 'OCRFRegular';
+  src: url(../../fonts/OCRFRegular.ttf);
   font-weight: normal;
   font-style: normal; }
 body {
@@ -9,7 +9,7 @@ body {
 .wrapper {
   margin: 0;
   padding: 0;
-  font-family: DejaVuSans;
+  font-family: OCRFRegular;
   overflow-x: hidden !important; }
 
 .decoration {
@@ -26,76 +26,108 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 30px;
-  margin-left: 20%;
-  margin-right: 20%; }
+  justify-content: space-between;
+  margin-left: 18%;
+  margin-right: 18%;
+  height: 57px;
+  background-color: #fff; }
 
 .header__logo {
-  width: 375px;
-  height: 65px; }
+  display: flex;
+  width: 180px;
+  height: 30px;
+  justify-content: space-between; }
+
+.logo__container {
+  width: 30px;
+  height: 30px;
+  background-color: #faeb00;
+  border: 1px solid #111;
+  position: relative; }
+  .logo__container img {
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
 
 .header__menu {
   display: flex;
   flex-wrap: no-wrap; }
 
 .header__menu__item {
-  font-size: 24px;
+  font-size: 16px;
   color: #000000;
-  font-family: DejaVuSans;
+  font-family: OCRFRegular;
   margin: 30px; }
   .header__menu__item:hover {
     text-decoration: none;
     color: #fee600; }
 
-@media (max-width: 1250px) {
-  .header__logo {
-    display: flex;
-    text-align: center; }
+/*@media (max-width: 1250px) {
+	  .header__logo {
+  		display: flex;
+  		text-align: center;
+  }
 
   .logo_img {
-    width: 200px;
-    height: 50px; } }
+  		width: 200px;
+  		height: 50px;
+  }
+}
+
 @media (max-width: 1000px) {
-  .header__menu__item {
-    font-size: 18px; }
+	.header__menu__item {
+		font-size: 18px;
+	}
 
-  .decoration__line {
-    display: none; } }
+	.decoration__line {
+		display: none;
+	}
+}
+
 @media (max-width: 850px) {
-  .header__menu__item {
-    margin: 15px; } }
+		.header__menu__item {
+		margin: 15px;
+	}
+}
+
 @media (max-width: 700px) {
-  .header__menu__item {
-    margin: 10px; }
+	.header__menu__item {
+		margin: 10px;
+	}
+	
+	.logo_img {
+		width: 150px;
+		height: 20px;
+	}
 
-  .logo_img {
-    width: 150px;
-    height: 20px; }
+	.header__logo {
+		width: 150px;
+		height: 20px;
+	}
+}
 
-  .header__logo {
-    width: 150px;
-    height: 20px; } }
 @media (min-width: 550px) {
-  .header__hamburger {
-    display: none; } }
+	.header__hamburger {
+		display: none;
+	}
+}
+
 @media (max-width: 550px) {
-  .header__hamburger {
-    display: block;
-    height: 50px;
-    width: 50px; }
+	.header__hamburger {
+		display: block;
+		height: 50px;
+		width: 50px;
+	}
 
-  .header__menu {
-    display: none; } }
-.info {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  flex-direction: column;
-  align-items: center;
-  position: relative; }
-
+	.header__menu {
+		display: none;
+	}
+}*/
 .info-container {
   position: relative;
   width: 100%; }
@@ -120,20 +152,23 @@ header {
   width: 100%;
   margin: 0 0 0 0; }
 
+.info__background-container {
+  position: relative; }
+
 .info__add__buttons {
   display: flex;
   justify-content: center;
-  top: 49%;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+  bottom: 0; }
 
 .add__button {
   width: 15%;
   min-width: 200px;
-  height: 80px;
+  height: 40px;
   background-color: #2a2d34;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 16px;
   border-radius: 10px;
   margin: 15px; }
 
@@ -165,53 +200,80 @@ header {
   z-index: 9; }
 
 @media (max-width: 1910px) {
-  .info__add__buttons {
-    top: 48%; }
-
-  .info__dashed-line__container {
-    top: 40%;
-    left: -30px; } }
-@media (max-width: 1910px) {
-  .info__add__buttons {
-    top: 48%; }
-
   .info__dashed-line__container {
     top: 39%;
     left: -60px; } }
 @media (max-width: 1855px) {
-  .info__add__buttons {
-    top: 47%; }
-
   .info__dashed-line__container {
     top: 39%;
     left: -155px; } }
 @media (max-width: 1855px) {
-  .info__add__buttons {
-    top: 46%; } }
-@media (max-width: 1855px) {
-  .info__add__buttons {
-    top: 44%; }
-
   .info__dashed-line__container {
     top: 37%; } }
+@media (max-width: 1750px) {
+  .info__dashed-line__container {
+    background: no-repeat url(../../images/line-medium.svg);
+    top: 38%;
+    left: 30px; } }
+@media (max-width: 1650px) {
+  .info__dashed-line__container {
+    top: 36%;
+    left: -55px; } }
+@media (max-width: 1600px) {
+  .info__dashed-line__container {
+    top: 34%;
+    left: -79px; } }
+@media (max-width: 1550px) {
+  .info__dashed-line__container {
+    background: no-repeat url(../../images/line-medium_x_1550.svg);
+    top: 32%;
+    left: 0px; } }
 @media (max-width: 1450px) {
+  .info__dashed-line__container {
+    top: 29%;
+    left: 11px; }
+
   .code__picture {
     width: 600px; }
 
   .info__text__codeR,
   .info__text__dayR {
     margin-top: 4%; } }
-@media (max-width: 1250px) {
+@media (max-width: 1410px) {
+  .info__dashed-line__container {
+    top: 27%;
+    left: -10px; } }
+@media (max-width: 1350px) {
+  .info__dashed-line__container {
+    top: 27%;
+    left: -60px; } }
+@media (max-width: 1330px) {
+  .info__dashed-line__container {
+    top: 25%;
+    left: -60px; } }
+@media (max-width: 1260px) {
   .code__picture {
     width: 400px;
     height: 20px; }
 
   .info__text__codeR,
   .info__text__dayR {
-    margin-top: 5%; } }
-@media (max-width: 1000px) {
-  .add__button {
-    font-size: 18px; }
+    margin-top: 5%; }
+
+  .info__dashed-line__container {
+    background: no-repeat url("../../images/line_x1000.svg");
+    top: 15%;
+    left: -65px;
+    background-size: contain; } }
+@media (max-width: 1200px) {
+  .info__dashed-line__container {
+    background: no-repeat url("../../images/line_x1000.svg");
+    top: 13%;
+    left: -65px;
+    background-size: contain; } }
+@media (max-width: 1040px) {
+  .info__dashed-line__container {
+    background: no-repeat url("../../images/line_x800.svg"); }
 
   .info_text p {
     font-size: 18px; }
@@ -219,9 +281,6 @@ header {
   header {
     margin-left: 10%;
     margin-right: 10%; }
-
-  .add__button {
-    height: 50px; }
 
   .info__text__codeR,
   .info__text__dayR {
@@ -251,14 +310,6 @@ header {
   .info__motto {
     display: none; } }
 @media (max-width: 550px) {
-  .add__button {
-    height: 30px;
-    margin: 5px; }
-
-  .info__add__buttons {
-    flex-direction: column;
-    align-items: center; }
-
   .info__date {
     font-family: DejaVuSans;
     color: #111111;
