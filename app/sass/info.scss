@@ -3,8 +3,16 @@
 }
 
 .info-container {
+}
+
+.info__background {
+    object-fit: cover;
+    width: 100%;
+  }
+
+
+.info__background-container {
   position: relative;
-  width: 100%;
 }
 
 .info__dashed-line__container {
@@ -15,24 +23,109 @@
   top: 42%;
   z-index: 99;
   background: no-repeat url(../../images/line.svg);
+  pointer-events: none;
 }
 
-.info__add {
-  width: 100%;
-  height: 100%;
+.info__cross_1 {
+  width: 40px;
+  height: 35px;
+  position: absolute;
+  left: 19%;
+  top: 16%;
+}
+
+.info__cross_2 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 15%;
+  left: 78%;
+}
+
+.info__cross_3 {
+  width: 35px;
+  height: 30px;
+  position: absolute;
+  top: 51%;
+  left: 28%;
+}
+
+.info__cross_4 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 61%;
+  left: 78%;
+}
+
+.info__cross_5 {
+  width: 35px;
+  height: 30px;
+  position: absolute;
+  top: 84%;
+  left: 71%;
+
+}
+
+.info__arrow-big {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 51%;
+  left: 19%;
+}
+
+.info__arrow-small {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 30%;
+  left: 74%;
+}
+
+.info__logo-sign {
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  top: 45%;
+  left: 35%;
+}
+
+.info__cursor {
+  width: 75px;
+  height: 50px;
+}
+
+.info__message {
+  background-image: url("../../images/message-field.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 215px;
+  height: 143px;
+  position: absolute;
+  top: 0;
+  left: 21%;
+}
+
+.info__message-inner {
   position: relative;
-  margin-bottom: 75px;
-  overflow: hidden;
-
+  width: 215px;
+  height: 143px;
+  & p {
+    font-size: 16px;
+    position: absolute;
+    margin: auto;
+    position: absolute;
+    top: 32%;
+    left: 68px;
+  }
 }
 
-.info__background {
-  width: 100%;
-  margin: 0 0 0 0;
-}
+.info__motto {
+  position: absolute;
+  top: 69%;
+  left: 35%;
 
-.info__background-container {
-	position: relative;
 }
 
 .info__add__buttons {
@@ -40,7 +133,7 @@
   justify-content: center;
   position: absolute;
   width: 100%;
-  bottom: 0;
+  top: 81%;
 }
 
 .add__button {
@@ -259,13 +352,6 @@
   }
 }
 
-@media (min-width: 550px) {
-
-  .info__date,
-  .info__motto {
-    display: none;
-  }
-}
 
 @media (max-width: 550px) {
   .info__date {
