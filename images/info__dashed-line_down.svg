@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1542 787" width="1542" height="787">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M0 -254L1920 -254L1920 946L0 946L0 -254Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #000000 } 
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g id="Layer">
+			<path id="Layer" class="shp0" d="M-1 -142L40 -142L40 -134L-1 -134L-1 -142Z" />
+			<path id="Layer" class="shp0" d="M65 -142L106 -142L106 -134L65 -134L65 -142Z" />
+			<path id="Layer" class="shp0" d="M131 -142L172 -142L172 -134L131 -134L131 -142Z" />
+			<path id="Layer" class="shp0" d="M197 -142L238 -142L238 -134L197 -134L197 -142Z" />
+			<path id="Layer" class="shp0" d="M263 -142L304 -142L304 -134L263 -134L263 -142Z" />
+			<path id="Layer" class="shp0" d="M329 -142L370 -142L370 -134L329 -134L329 -142Z" />
+			<path id="Layer" class="shp0" d="M395 -142L436 -142L436 -134L395 -134L395 -142Z" />
+			<path id="Layer" class="shp0" d="M461 -142L502 -142L502 -134L461 -134L461 -142Z" />
+			<path id="Layer" class="shp0" d="M527 -142L568 -142L568 -134L527 -134L527 -142Z" />
+			<path id="Layer" class="shp0" d="M593 -142L634 -142L634 -134L593 -134L593 -142Z" />
+			<path id="Layer" class="shp0" d="M659 -142L700 -142L700 -134L659 -134L659 -142Z" />
+			<path id="Layer" class="shp0" d="M725 -142L766 -142L766 -134L725 -134L725 -142Z" />
+			<path id="Layer" class="shp0" d="M791 -142L832 -142L832 -134L791 -134L791 -142Z" />
+			<path id="Layer" class="shp0" d="M857 -142L898 -142L898 -134L857 -134L857 -142Z" />
+			<path id="Layer" class="shp0" d="M923 -142L964 -142L964 -134L923 -134L923 -142Z" />
+			<path id="Layer" class="shp0" d="M989 -142L1030 -142L1030 -134L989 -134L989 -142Z" />
+			<path id="Layer" class="shp0" d="M1055 -142L1096 -142L1096 -134L1055 -134L1055 -142Z" />
+			<path id="Layer" class="shp0" d="M1121 -142L1162 -142L1162 -134L1121 -134L1121 -142Z" />
+			<path id="Layer" class="shp0" d="M1187 -142L1228 -142L1228 -134L1187 -134L1187 -142Z" />
+			<path id="Layer" class="shp0" d="M1253 -142L1294 -142L1294 -134L1253 -134L1253 -142Z" />
+			<path id="Layer" class="shp0" d="M1319 -142L1360 -142L1360 -134L1319 -134L1319 -142Z" />
+			<path id="Layer" class="shp0" d="M1385 -142L1426 -142L1426 -134L1385 -134L1385 -142Z" />
+			<path id="Layer" class="shp0" d="M1451 -142L1492 -142L1492 -134L1451 -134L1451 -142Z" />
+			<path id="Layer" class="shp0" d="M1439 47L1480 47L1480 55L1439 55L1439 47Z" />
+			<path id="Layer" class="shp0" d="M1373 47L1414 47L1414 55L1373 55L1373 47Z" />
+			<path id="Layer" class="shp0" d="M1307 47L1348 47L1348 55L1307 55L1307 47Z" />
+			<path id="Layer" class="shp0" d="M1241 47L1282 47L1282 55L1241 55L1241 47Z" />
+			<path id="Layer" class="shp0" d="M1175 47L1216 47L1216 55L1175 55L1175 47Z" />
+			<path id="Layer" class="shp0" d="M1110 47L1151 47L1151 55L1110 55L1110 47Z" />
+			<path id="Layer" class="shp0" d="M1045 47L1086 47L1086 55L1045 55L1045 47Z" />
+			<path id="Layer" class="shp0" d="M979 47L1020 47L1020 55L979 55L979 47Z" />
+			<path id="Layer" class="shp0" d="M913 47L954 47L954 55L913 55L913 47Z" />
+			<path id="Layer" class="shp0" d="M847 47L888 47L888 55L847 55L847 47Z" />
+			<path id="Layer" class="shp0" d="M781 47L822 47L822 55L781 55L781 47Z" />
+			<path id="Layer" class="shp0" d="M715 47L756 47L756 55L715 55L715 47Z" />
+			<path id="Layer" class="shp0" d="M649 47L690 47L690 55L649 55L649 47Z" />
+			<path id="Layer" class="shp0" d="M583 47L624 47L624 55L583 55L583 47Z" />
+			<path id="Layer" class="shp0" d="M517 47L558 47L558 55L517 55L517 47Z" />
+			<path id="Layer" class="shp0" d="M478 47L492 47L492 55L478 55L478 47Z" />
+			<path id="Layer" class="shp0" d="M1505 47L1541 47L1541 55L1505 55L1505 47Z" />
+			<path id="Layer" class="shp0" d="M1517 -142L1541 -142L1541 -134L1517 -134L1517 -142Z" />
+			<path id="Layer" class="shp0" d="M131 -142L172 -142L172 -140L131 -140L131 -142Z" />
+			<path id="Layer" class="shp0" d="M1533 -142L1541 -142L1541 -117L1533 -117L1533 -142Z" />
+			<path id="Layer" class="shp0" d="M1533 -92L1541 -92L1541 -50L1533 -50L1533 -92Z" />
+			<path id="Layer" class="shp0" d="M1533 -25L1541 -25L1541 17L1533 17L1533 -25Z" />
+			<path id="Layer" class="shp0" d="M1533 42L1541 42L1541 55L1533 55L1533 42Z" />
+			<path id="Layer" class="shp0" d="M478 47L486 47L486 81L478 81L478 47Z" />
+			<path id="Layer" class="shp0" d="M478 106L486 106L486 147L478 147L478 106Z" />
+			<path id="Layer" class="shp0" d="M478 172L486 172L486 213L478 213L478 172Z" />
+			<path id="Layer" class="shp0" d="M478 238L486 238L486 279L478 279L478 238Z" />
+			<path id="Layer" class="shp0" d="M478 304L486 304L486 345L478 345L478 304Z" />
+			<path id="Layer" class="shp0" d="M478 370L486 370L486 411L478 411L478 370Z" />
+			<path id="Layer" class="shp0" d="M478 436L486 436L486 477L478 477L478 436Z" />
+			<path id="Layer" class="shp0" d="M478 502L486 502L486 543L478 543L478 502Z" />
+			<path id="Layer" class="shp0" d="M478 568L486 568L486 609L478 609L478 568Z" />
+			<path id="Layer" class="shp0" d="M478 634L486 634L486 675L478 675L478 634Z" />
+			<path id="Layer" class="shp0" d="M474 676L490 676L490 713L474 713L474 676Z" />
+			<path id="Layer" class="shp0" d="M474 746L490 746L490 783L474 783L474 746Z" />
+			<path id="Layer" class="shp0" d="M497 722L531 722L531 738L497 738L497 722Z" />
+			<path id="Layer" class="shp0" d="M497 722L531 722L531 738L497 738L497 722Z" />
+			<path id="Layer" class="shp0" d="M497 722L531 722L531 738L497 738L497 722Z" />
+			<path id="Layer" class="shp0" d="M497 722L531 722L531 738L497 738L497 722Z" />
+			<path id="Layer" class="shp0" d="M497 722L531 722L531 738L497 738L497 722Z" />
+			<path id="Layer" class="shp0" d="M497 722L531 722L531 738L497 738L497 722Z" />
+			<path id="Layer" class="shp0" d="M497 722L531 722L531 738L497 738L497 722Z" />
+			<path id="Layer" class="shp0" d="M433 722L467 722L467 738L433 738L433 722Z" />
+			<path id="Layer" class="shp0" d="M433 722L467 722L467 738L433 738L433 722Z" />
+			<path id="Layer" class="shp0" d="M433 722L467 722L467 738L433 738L433 722Z" />
+			<path id="Layer" class="shp0" d="M433 722L467 722L467 738L433 738L433 722Z" />
+			<path id="Layer" class="shp0" d="M433 722L467 722L467 738L433 738L433 722Z" />
+			<path id="Layer" class="shp0" d="M433 722L467 722L467 738L433 738L433 722Z" />
+			<path id="Layer" class="shp0" d="M433 722L467 722L467 738L433 738L433 722Z" />
+		</g>
+	</g>
+</svg>
